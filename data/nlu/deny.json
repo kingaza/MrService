@@ -1,0 +1,26 @@
+{
+    "rasa_nlu_data": {
+      "regex_features": [],
+      "entity_synonyms": [],
+      "common_examples": [
+        {"text": "no", "intent": "deny", "entities": []},
+        {"text": "oh no", "intent": "deny", "entities": []},
+        {"text": "no thanks", "intent": "deny", "entities": []},
+        {"text": "no thank you", "intent": "deny", "entities": []},
+        {"text": "no component is defect", "intent": "deny", "entities": []},
+        {"text": "no failed component", "intent": "deny", "entities": []},
+        {"text": "no defect", "intent": "deny", "entities": []},
+        {"text": "no component failed", "intent": "deny", "entities": []},
+        {"text": "no fault component", "intent": "deny", "entities": []},
+        {"text": "no error message", "intent": "deny", "entities": []},
+        {"text": "no error popup", "intent": "deny", "entities": []},
+        {"text": "no more", "intent": "deny", "entities": []},
+        {"text": "no thank you good bye", "intent": "deny", "entities": []},
+        {"text": "uh no", "intent": "deny", "entities": []},
+        {"text": "no, nothing", "intent": "deny", "entities": []},      
+        {"text": "no, I see nothing wrong", "intent": "deny", "entities": []},               
+        {"text": "no, I don't see anything wrong", "intent": "deny", "entities": []},               
+        {"text": "no new finding", "intent": "deny", "entities": []}
+      ]
+    }
+  }

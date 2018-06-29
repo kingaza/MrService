@@ -1,0 +1,21 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "entity_synonyms": [],
+    "common_examples": [
+      {"text": "thanks", "intent": "thankyou", "entities": []},
+      {"text": "many thanks", "intent": "thankyou", "entities": []},
+      {"text": "thanks a lot", "intent": "thankyou", "entities": []},
+      {"text": "okay thank you", "intent": "thankyou", "entities": []},
+      {"text": "thank you", "intent": "thankyou", "entities": []},
+      {"text": "It is very kinds of you", "intent": "thankyou", "entities": []},
+      {"text": "It is very kind of you", "intent": "thankyou", "entities": []},
+      {"text": "You are very kind.", "intent": "thankyou", "entities": []},
+      {"text": "I really appriciate", "intent": "thankyou", "entities": []},
+      {"text": "You are a real gentleman", "intent": "thankyou", "entities": []},
+      {"text": "you are so nice", "intent": "thankyou", "entities": []},
+      {"text": "appreciate", "intent": "thankyou", "entities": []},
+      {"text": "thank you for that you have done", "intent": "thankyou", "entities": []}
+    ]
+  }
+}

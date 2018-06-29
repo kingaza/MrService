@@ -1,0 +1,428 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "entity_synonyms": [],
+    "common_examples": [
+      {
+        "text": "the patient suffer burn during examination",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "burn",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a man got heating in examination",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "heating",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "the woman suffered heating in exam",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "heating",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a patient get burning",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "burning",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a child suffer burn during examination",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "burn",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a woman suffered heating in examination",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "heating",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "the child get heating in exam",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "heating",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a guy got burning",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "burning",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a woman suffer heating in examination",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "heating",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a guy got burn in exam",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "burn",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a child suffered heating during examination",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "heating",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "the patient got heating in exam",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "heating",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "the child suffered heating",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "heating",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "the woman get burning in examination",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "burning",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a man suffer burn during examination",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "burn",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "the woman suffer heating in examination",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "heating",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "the child get burning in exam",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "burning",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "the patient suffered burn during examination",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "burn",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a patient got heating",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "heating",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a guy got burning in examination",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "burning",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a child suffer heating",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "heating",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a woman get burn in exam",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "burn",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a man suffered heating during examination",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "heating",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a woman suffered burn during examination",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "burn",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a man suffer burning in exam",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "burning",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a child got heating",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "heating",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "a patient get heating in examination",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "heating",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "the patient suffered burn in exam",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "suffered",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "the child get burning",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "burning",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "the woman got heating during examination",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "heating",
+            "entity": "issue_burn"
+          }
+        ]
+      },
+      {
+        "text": "the image is not good",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": " not good",
+            "entity": "issue_image"
+          }
+        ]
+      },
+      {
+        "text": "there is some artifact in the image",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "artifact",
+            "entity": "issue_image"
+          }
+        ]
+      },
+      {
+        "text": "it is too noisy of the image",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "noisy",
+            "entity": "issue_image"
+          }
+        ]
+      },
+      {
+        "text": "there is some spike in the image",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "spike",
+            "entity": "issue_image"
+          }
+        ]
+      },
+      {
+        "text": "the image is a little bit blur",
+        "intent": "issue",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "blur",
+            "entity": "issue_image"
+          }
+        ]
+      }
+    ]
+  }
+}

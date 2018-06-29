@@ -1,0 +1,22 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "entity_synonyms": [],
+    "common_examples": [
+      {"text": "welcome", "intent": "welcome", "entities": []},
+      {"text": "any time", "intent": "welcome", "entities": []},
+      {"text": "it is welcome", "intent": "welcome", "entities": []},
+      {"text": "it's quite welcome", "intent": "welcome", "entities": []},
+      {"text": "that's OK", "intent": "welcome", "entities": []},
+      {"text": "you are welcome", "intent": "welcome", "entities": []},
+      {"text": "my pleasure", "intent": "welcome", "entities": []},
+      {"text": "it's my pleasure", "intent": "welcome", "entities": []},
+      {"text": "don't mention it", "intent": "welcome", "entities": []},
+      {"text": "it is really nothing", "intent": "welcome", "entities": []},
+      {"text": "that is really nothing", "intent": "welcome", "entities": []},
+      {"text": "that's' really nothing", "intent": "welcome", "entities": []},
+      {"text": "it's nothing", "intent": "welcome", "entities": []},
+      {"text": "glad to help you", "intent": "welcome", "entities": []}
+    ]
+  }
+}

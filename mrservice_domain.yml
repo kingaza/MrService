@@ -1,0 +1,138 @@
+slots:
+  damage_degree:
+    type: text
+  patient_height:
+    type: text
+  patient_weight:
+    type: text
+  patient_pose:
+    type: text
+  has_mental:
+    type: bool    
+  system:
+    type: categorical
+    values:
+    - 1.5T
+    - 3.0T
+  error:
+    type: bool   
+  air_temperature:
+    type: float
+    min_value: -100.0
+    max_value:  100.0     
+  exam_time:
+    type: float
+    min_value: 0
+    max_value: 7200
+  exam_sed:
+    type: float
+    min_value: 0
+    max_value: 100000
+
+entities:
+- issue_burn
+- issue_image
+- damage_degree
+- patient_height
+- patient_weight
+- patient_pose
+- system
+- error
+- exam_time
+- exam_sed
+
+intents:
+ - greet
+ - issue
+ - affirm
+ - deny
+ - inform
+ - request
+ - thankyou
+ - welcome
+ - goodbye
+
+templates:
+  utter_greet:
+    - "hey there!"
+  utter_thankyou:
+    - "thank you"    
+  utter_welcome:
+    - "you are welcome"  
+  utter_goodbye:
+    - "goodbye :("
+    - "Bye-bye"
+  utter_default:
+    - "default message"
+  utter_ack_dosearch: 
+    - "ok let me see what I can find"
+  utter_ack_findalternatives:
+    - "ok let me see what else there is"
+  utter_ask_howcanhelp:
+    - "how can I help you?"
+    - "what I can do for you?"
+  utter_ask_moreupdates: 
+    - "if you'd like to modify anything else, please tell me what"
+  utter_on_it: 
+    - "I'm on it"
+    - "I will deal with this issue"
+  utter_need_furtherinvestigation: 
+    - "We need to do further investigation"    
+  utter_ask_damagedegree:
+    - text: 'how serious of the damage?'
+  utter_ask_systemtype:
+    - "what system is it?"
+  utter_ask_haserror:
+    - "If there is any error?"
+  utter_ask_airtemperature:
+    - "what degree is the air temperature?"
+  utter_ask_patientheight:
+    - "What height is the patient?"    
+  utter_ask_patientweight:
+    - "What weight is the patient?"        
+  utter_ask_patientpose:
+    - text: "what pose is the patient?"    
+      button:
+      - title: "correct"
+        payload: "correct"
+      - title: "body loop"
+        payload: "loop"
+      - title: "close to bore"
+        payload: "bore"    
+  utter_ask_hasmetal:
+    - text: "Is there any metal thing on or in the patient body?"  
+      button:
+      - title: "Yes"
+        payload: "yes"
+      - title: "No"
+        payload: "no"      
+  utter_ask_examtime:
+    - "How long did the examination run for this patient?"
+  utter_ask_examsed:
+    - "What is the SED for the whole examination?"    
+  utter_suggest_callservice:
+    - "Please ask help from service"
+
+actions:
+- utter_default
+- utter_greet
+- utter_goodbye
+- utter_thankyou
+- utter_welcome
+- utter_ack_dosearch
+- utter_ask_howcanhelp
+- utter_on_it
+- utter_ask_damagedegree
+- utter_ask_systemtype
+- utter_ask_haserror
+- utter_ask_airtemperature
+- utter_ask_patientheight
+- utter_ask_patientweight
+- utter_ask_patientpose
+- utter_ask_hasmetal
+- utter_ask_examtime
+- utter_ask_examsed
+- utter_ask_moreupdates
+- utter_suggest_callservice
+- actions.ActionSuggest
+- actions.ActionTicket

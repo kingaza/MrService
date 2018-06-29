@@ -1,0 +1,22 @@
+{
+    "rasa_nlu_data": {
+      "regex_features": [],
+      "entity_synonyms": [],
+      "common_examples": [
+        {"text": "yes", "intent": "affirm", "entities": []},
+        {"text": "OK", "intent": "affirm", "entities": []},        
+        {"text": "all right", "intent": "affirm", "entities": []},        
+        {"text": "yes, i see something strange", "intent": "affirm", "entities": []},
+        {"text": "yes, you are right", "intent": "affirm", "entities": []},
+        {"text": "yes, u r right", "intent": "affirm", "entities": []},
+        {"text": "right", "intent": "affirm", "entities": []},
+        {"text": "i love that", "intent": "affirm", "entities": []},
+        {"text": "I think you are right", "intent": "affirm", "entities": []},
+        {"text": "correct", "intent": "affirm", "entities": []},
+        {"text": "absolutely", "intent": "affirm", "entities": []},
+        {"text": "no more than that", "intent": "affirm", "entities": []},
+        {"text": "bingo", "intent": "affirm", "entities": []},
+        {"text": "agree", "intent": "affirm", "entities": []}
+      ]
+    }
+  }
