@@ -1,5 +1,5 @@
 # trained model:
-model/
+models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -30,4 +30,8 @@ docs/_build/
 # Spyder project settings
 .spyderproject
 .spyproject
+
+# Visual Studio Code
+.vscode/
+
 

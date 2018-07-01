@@ -1,4 +1,6 @@
 help:
+	@echo:"	   python -m rasa_nlu.train -c nlu_model_config.yml \
+	--fixed_model_name current --data ./data/nlu/ --path ./models/nlu"
 	@echo "    train-nlu"
 	@echo "        Train the natural language understanding using Rasa NLU."
 	@echo "    train-core"

@@ -68,6 +68,7 @@ def train_nlu():
     trainer = Trainer(config.load("nlu_model_config.yml"))
     trainer.train(training_data)
     model_directory = trainer.persist('models/nlu/',
+                                      project_name='default',  
                                       fixed_model_name="current")
 
     return model_directory
@@ -82,6 +83,13 @@ def run(serve_forever=True):
     return agent
 
 
+def visualize(output_file='stories.png'):
+    agent = Agent("mrservice_domain.yml",
+                  policies=[MemoizationPolicy(), MrServicePolicy()])
+
+    agent.visualize("data/dialogue/stories.md",
+                    output_file, max_history=2)
+
 
 if __name__ == '__main__':
     utils.configure_colored_logging(loglevel="INFO")
@@ -91,7 +99,7 @@ if __name__ == '__main__':
 
     parser.add_argument(
             'task',
-            choices=["train-nlu", "train-dialogue", "train-online", "run"],
+            choices=["train-nlu", "train-dialogue", "train-online", "run", "visualize"],
             help="what the bot should do - e.g. run or train?")
     task = parser.parse_args().task
 
@@ -104,3 +112,5 @@ if __name__ == '__main__':
         train_online()
     elif task == "run":
         run()
+    elif task == "visualize":
+        visualize()
